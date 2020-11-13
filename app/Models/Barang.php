@@ -14,4 +14,8 @@ class Barang extends Model
     public function kategori(){
         return $this->belongsTo('App\Models\Kategori');
     }
+
+    public function transaksi_detail(){
+        return $this->hasMany('App\Models\Transaksi_detail');
+    }
 }
