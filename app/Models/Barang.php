@@ -16,6 +16,6 @@ class Barang extends Model
     }
 
     public function transaksi_detail(){
-        return $this->hasMany('App\Models\Transaksi_detail');
+        return $this->hasMany('App\Models\TransaksiDetail');
     }
 }
