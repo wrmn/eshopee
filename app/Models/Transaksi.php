@@ -13,7 +13,7 @@ class Transaksi extends Model
     public $timestamps = false;
 
     public function transaksi_details(){
-        return $this->hasMany('App/Models/transaksi_detail');
+        return $this->hasMany('App/Models/Transaksi_detail');
     }
 
 
