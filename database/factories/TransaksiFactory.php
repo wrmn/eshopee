@@ -11,7 +11,7 @@ class TransaksiFactory extends Factory
 
     public function definition(){
         return [
-            'date' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
+            'tanggal' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
             'no_resi' => $this->faker->swiftBIcNumber
         ];
     }
